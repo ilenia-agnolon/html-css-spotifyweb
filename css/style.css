@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 :root{
-    font-family: ;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;;
     font-size: 12px;
 }
 /* FONT FAMILY
@@ -16,7 +16,34 @@ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 font-family: system-ui, sans-serif;
  */
 
+/*************************************************
+    MAIN
+ *************************************************/
+ .main-container {
+    height: 600px;
+    background-color: #f783ac;
+    display: flex;
+ }
 
+ .left-col{
+    height: 600px;
+    width: 145px;
+    background-color: #a5d8ff;
+ }
+
+  .right-col{
+    height: 600px;
+    background-color: #eebefa;
+    flex-grow: 1;
+ }
+
+ /*************************************************
+    FOOTER
+ *************************************************/
+ footer {
+    height: 50px;
+    background-color: #181818;
+ }
 
 
 
