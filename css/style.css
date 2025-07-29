@@ -25,16 +25,41 @@ font-family: system-ui, sans-serif;
     display: flex;
  }
 
- .left-col{
+ .left-box{
     height: 600px;
     width: 145px;
     background-color: #a5d8ff;
  }
 
-  .right-col{
+  .right-box{
     height: 600px;
-    background-color: #eebefa;
+    background-color: #0c0f14;
     flex-grow: 1;
+ }
+
+ /* call-to-action-bar */
+ .call-to-action-bar {
+    height: 55px;
+    background-color: rgba(40, 40, 40, 0.7);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+
+ /* ---------> button */
+ .btn-cta {
+   height: 25px;
+   width: 140px;
+   border: 1px solid #878788;
+   padding: 10px 20px;
+   border-radius: 20px;
+   color: #878788;
+   font-size: 8px;
+   font-weight: 700;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   align-items: center;
  }
 
  /*************************************************
