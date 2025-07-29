@@ -27,7 +27,7 @@ font-family: system-ui, sans-serif;
 
  .left-box{
     height: 600px;
-    width: 250px;
+    width: 150px;
     background-color: #a5d8ff;
  }
 
@@ -48,7 +48,7 @@ font-family: system-ui, sans-serif;
     align-items: center;
     position: fixed;
     top: 0;
-    width: calc(100% - 250px);
+    width: calc(100% - 150px);
 
  }
 
@@ -79,6 +79,38 @@ font-family: system-ui, sans-serif;
 }
 /* ________________________________________________________ */
 
+/* top navbar */
+.top-nav {
+    background-color: #b2f2bb;
+    height: 40px;
+    width: 100%;
+    margin: 55px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #878788;
+    font-weight: 600;
+}
+
+.top-nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.top-nav a {
+  color: #878788;
+  text-decoration: none;
+ }
+
+  .top-nav a:hover {
+  color: white;
+}
+
+.active-section {
+  border-bottom: 2px solid #1ed760;
+}
+/* ________________________________________________________ */
 
 
 
@@ -89,9 +121,9 @@ font-family: system-ui, sans-serif;
     height: 50px;
     background-color: #181818;
     position: fixed;
-    bottom: 0;
     width: 100%;
     z-index: 100;
+    margin: 0 auto;
 
  }
 
