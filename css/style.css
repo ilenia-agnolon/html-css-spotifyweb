@@ -7,7 +7,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+:root{
+    font-family: ;
+    font-size: 12px;
+}
 /* FONT FAMILY
 font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 font-family: system-ui, sans-serif;
@@ -22,5 +25,16 @@ font-family: system-ui, sans-serif;
 
  /* ______________________________________________________________ */
  /*************************************************
-    RESPONSIVE
+    RESPONSIVE - DESKTOP FIRST
  *************************************************/
+ @media (max-width: 878px) {
+  /* layout MD */
+}
+
+@media (max-width: 639px) {
+  /* layout S */
+}
+
+@media (max-width: 552px) {
+  /* layout XS */
+}
