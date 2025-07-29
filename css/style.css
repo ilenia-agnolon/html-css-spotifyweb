@@ -1,7 +1,6 @@
 /*************************************************
     GENERAL RULES CSS
  *************************************************/
-
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +15,11 @@ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 font-family: system-ui, sans-serif;
  */
 
+/* body {
+width: 1440px;
+margin: 0 auto;
+} */
+
 /*************************************************
     MAIN
  *************************************************/
@@ -28,7 +32,7 @@ font-family: system-ui, sans-serif;
  .left-box{
     height: 600px;
     width: 150px;
-    background-color: #a5d8ff;
+    background-color: #000000;
  }
 
   .right-box{
@@ -74,8 +78,18 @@ font-family: system-ui, sans-serif;
   text-decoration: none;
  }
 
- .btn-cta:hover {
+ /* .btn-cta a:hover {
   transform: scale(1.05);
+} */
+
+ .btn-cta:hover {
+ border: 1px solid white;
+ transform: scale(1.05);
+ color: white;
+}
+
+.btn-cta a:hover {
+  color: white;
 }
 /* ________________________________________________________ */
 
@@ -83,7 +97,6 @@ font-family: system-ui, sans-serif;
 .top-nav {
     height: 40px;
     width: 100%;
-    margin: 55px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +104,7 @@ font-family: system-ui, sans-serif;
     font-weight: 600;
 }
 
-.top-nav ul{
+.top-nav ul {
     display: flex;
     gap: 30px;
     list-style: none;
@@ -111,7 +124,76 @@ font-family: system-ui, sans-serif;
 }
 /* ________________________________________________________ */
 
+/* contenuti-in-evidenza */
+.contenuti-in-evidenza {
+    margin: 55px 0;
+}
+/* ***************************** */
+h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
 
+h2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    color: white;
+    font-size: 10px;
+    letter-spacing: 1px;
+    /* font-weight: 600; */
+}
+/* ***************************** */
+
+/* -------> Recently played */
+.cont-title-and-album {
+  background-color: #f08c00;
+  padding: 0 10px;
+}
+
+.cont-album {
+   
+}
+
+.row {
+  background-color: #a5d8ff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  gap: 7px;
+  width: 100%;
+  padding: 0 5px;
+  
+}
+
+.col {
+  background-color: #eebefa;
+}
+
+.card {
+  background-color: #b2f2bb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cont-title-and-album .col img {
+  height: 120px;
+}
+
+/* -------> Creato per John Doe */
+
+/* -------> Artisti più popolari */
 
  /*************************************************
     FOOTER
