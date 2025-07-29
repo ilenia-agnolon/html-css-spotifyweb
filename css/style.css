@@ -27,7 +27,7 @@ font-family: system-ui, sans-serif;
 
  .left-box{
     height: 600px;
-    width: 145px;
+    width: 250px;
     background-color: #a5d8ff;
  }
 
@@ -36,14 +36,19 @@ font-family: system-ui, sans-serif;
     background-color: #0c0f14;
     flex-grow: 1;
  }
-
- /* call-to-action-bar */
+/* ________________________________________________________ */
+ 
+/* call-to-action-bar */
  .call-to-action-bar {
     height: 55px;
     background-color: rgba(40, 40, 40, 0.7);
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: calc(100% - 250px);
+
  }
 
  /* ---------> button */
@@ -60,6 +65,7 @@ font-family: system-ui, sans-serif;
    justify-content: center;
    align-items: center;
    transition: transform 0.2s ease-in-out;
+   margin-right: 5px;
  }
 
  .btn-cta a {
@@ -70,6 +76,8 @@ font-family: system-ui, sans-serif;
  .btn-cta:hover {
   transform: scale(1.05);
 }
+/* ________________________________________________________ */
+
 
 
 
