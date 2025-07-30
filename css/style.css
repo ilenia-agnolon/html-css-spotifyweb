@@ -139,27 +139,24 @@ h6 {
 /* crea playlist */
 .box-create-playlist {
   margin-top: 20px;
+  /* debug */
+  background-color: #1ed760;
 }
 
-
-.cont-create-playlist {
+.box-btn-and-action {
   background-color: #f783ac;
+  display: flex;
+  align-items: center;
 }
 
- /* .icon-create-playlist {
-  display: flex;
-  align-items: center
-  } */
-
-  .icon-create-playlist i {
+  .plus-icon i {
   font-size: 34px;
   color:#878788;
   margin-right: 8px;
   }
 
-  .icon-create-playlist a {
-  text-decoration: none;
-  color:#878788;
+  .text-create-playlist {
+    color: #878788;
   }
 
 /* lista scrollabile con varie playlist */
