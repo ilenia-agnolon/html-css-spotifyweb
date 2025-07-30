@@ -49,12 +49,33 @@ margin: 0 auto;
  /* logo */
  .box-logo {
    height:55px;
-   background-color: gray;
  }
 
  .box-logo img {
 
  }
+
+ /* menu */
+ .cont-menu-lb {
+  height:80px;
+  background-color: rgb(255, 196, 86);
+ }
+
+ .menu-icon {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+  color:#878788;
+ }
+
+.cont-menu-lb a {
+  color:#878788;
+  text-decoration: none;
+}
+
+.cont-menu-lb ul {
+  line-height: 2;
+}
 /* **************** */
   .right-box{
     height: 600px;
