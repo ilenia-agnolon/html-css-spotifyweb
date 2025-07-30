@@ -349,78 +349,36 @@ color: #878788;
 /* -------> Artisti più popolari */
 
  /*************************************************
-    FOOTER
+    BOTTOM
  *************************************************/
  footer {
     height: 70px;
-    background-color: #0c0f14;
+    background-color: #181818;
     margin: 0 auto;
     display: flex;
     align-items: center;
  }
 
-/* .narrow-cont-footer {
+.narrow-cont-footer {
   background-color: red;
-  width: 100%;
+  width: 90%;
   display: flex;
   align-items: center;
-  padding: 0 6px;
-} */
-
-.cont-footer-elements {
-  background-color: rgb(166, 166, 166);
-  width:100%;
-  display: flex;
-  justify-content: space-between;
-  height: 50px;
-  padding: 10px 6px;
+  height:50px;
 }
+
 /* ___________________________ */
 /* parte sx */
-.left-cont {
-  width:20%;
-  display: flex;
-  align-items: center;
-}
-
-/* ----> parte cover album e titolo canzone + artista */
-.cont-song-playing {
-width:80%;
-display: flex;
-align-items: center;
-}
-
-.box-img-album {
-width:20%;
-}
-
-.box-img-album img {
-width: 100%;
-}
-
-.box-title-and-artist {
-width:80%;
-}
 
 /* ----> parte icone */
-.cont-save-song {
-background-color: #ffb36c;
-width:20%;
-}
+
+
 /* ___________________________ */
 /* parte centrale */
-.center-cont {
-  height: 45 px;
-  background-color: rgb(255, 207, 255);
-  width:20%;
-}
+
 
 /* parte dx */
-.right-cont {
-  height: 45 px;
-  background-color: rgb(163, 218, 255);
-  width:20%;
-}
+
 
 
 
