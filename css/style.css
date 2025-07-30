@@ -112,7 +112,18 @@ margin: 0 auto;
   overflow-y: auto;
 }
 
+.box-playlists-to-scroll a {
+  color:#878788;
+  text-decoration: none;
+}
 
+.box-playlists-to-scroll a:hover {
+  color: white;
+}
+
+.box-playlists-to-scroll ul {
+line-height: 2;
+}
 
 
 /* **************** */
