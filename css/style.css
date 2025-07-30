@@ -40,6 +40,12 @@ margin: 0 auto;
 
     width: 130px;
     background-color: #a9e1ff;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .cont-main-side-c-l {
+  background-color: #f783ac;
  }
 
  /* logo */
@@ -131,9 +137,10 @@ line-height: 2;
   background-color: green;
   display: flex;
   align-items: flex-end;
+  flex-grow: 1;
 }
 
-.boxttom-box {
+.bottom-box {
   height: 60px;
   background-color: #878788;
   width: 100%;
