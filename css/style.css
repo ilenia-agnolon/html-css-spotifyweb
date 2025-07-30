@@ -142,10 +142,27 @@ line-height: 2;
 
 .bottom-box {
   height: 60px;
-  background-color: #878788;
+  background-color: #a3a3ff;
   width: 100%;
 }
 
+.cont-install a {
+  text-decoration: none;
+  color: #878788;
+}
+
+.cont-install a:hover {
+  color: white;
+}
+
+hr {
+color: #878788;
+}
+
+.cont-profile a {
+  text-decoration: none;
+  color: white;
+}
 
 /* **************** */
   .right-box{
