@@ -68,10 +68,17 @@ h4 {
 /*************************************************
     MAIN
  *************************************************/
+ /* .cont-web-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+ } */
+ 
  .main-container {
     display: flex;
-    height: 100vh;
  }
+
+
  
 /********************************
     left column
@@ -336,7 +343,7 @@ color: #878788;
  *************************************************/
  footer {
     height: 50px;
-    background-color: #d01b1b;
+    background-color: #290a0a;
     margin: 0 auto;
     display: flex;
     align-items: center;
