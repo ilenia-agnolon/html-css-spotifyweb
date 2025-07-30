@@ -16,6 +16,50 @@ width: 1440px;
 margin: 0 auto;
 } */
 
+/* ***************************** */
+h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    color: white;
+    font-size: 10px;
+    letter-spacing: 1px;
+    /* font-weight: 600; */
+}
+/* ***************************** */
+
+ /*****************
+    icone
+ ******************/
+ .menu-icon {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+  fill: red;
+ }
+
+ #install-icon {
+  width: 15px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+ }
+  /*****************
+ ******************/
+
 /*************************************************
     MAIN
  *************************************************/
@@ -63,13 +107,6 @@ margin: 0 auto;
   background-color: rgb(255, 196, 86);
  } */
 
- .menu-icon {
-  width: 20px;
-  vertical-align: middle;
-  margin-right: 5px;
-  color:#878788;
- }
-
 .cont-menu-lb a {
   color:#878788;
   text-decoration: none;
@@ -81,7 +118,6 @@ margin: 0 auto;
 
 /* crea playlist */
 .box-create-playlist {
-  background-color: #81ffad;
   margin-top: 20px;
 }
 
@@ -141,8 +177,6 @@ line-height: 2;
 }
 
 .bottom-box {
-  height: 60px;
-  background-color: #a3a3ff;
   width: 100%;
 }
 
@@ -162,6 +196,10 @@ color: #878788;
 .cont-profile a {
   text-decoration: none;
   color: white;
+}
+
+.cont-profile {
+  margin: 5px 0;
 }
 
 /* **************** */
@@ -258,31 +296,6 @@ color: #878788;
 .contenuti-in-evidenza {
     margin: 55px 0;
 }
-/* ***************************** */
-h1 {
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    letter-spacing: 1px;
-}
-
-h2 {
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 10px;
-    margin-bottom: 8px;
-    letter-spacing: 1px;
-}
-
-h3 {
-    color: white;
-    font-size: 10px;
-    letter-spacing: 1px;
-    /* font-weight: 600; */
-}
-/* ***************************** */
 
 /* -------> Recently played */
 .cont-title-and-album {
@@ -332,7 +345,10 @@ h3 {
 
  }
 
-
+.cont-footer-elements {
+  height: 45 px;
+  background-color: rgb(166, 166, 166);
+}
 
 
 
