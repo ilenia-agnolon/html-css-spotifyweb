@@ -30,11 +30,32 @@ margin: 0 auto;
  }
 
  .left-box{
+  /* debug */
     height: 600px;
+
     width: 150px;
     background-color: #000000;
+    display: flex;
+    justify-content: center;
  }
 
+ .narrow-cont {
+  height: 600px;
+
+    width: 130px;
+    background-color: #a9e1ff;
+ }
+
+ /* logo */
+ .box-logo {
+   height:55px;
+   background-color: gray;
+ }
+
+ .box-logo img {
+
+ }
+/* **************** */
   .right-box{
     height: 600px;
     background-color: #0c0f14;
@@ -156,32 +177,26 @@ h3 {
 
 /* -------> Recently played */
 .cont-title-and-album {
-  background-color: #f08c00;
   padding: 0 10px;
 }
 
-.cont-album {
-   
-}
 
 .row {
-  background-color: #a5d8ff;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: space-between; */
   gap: 10px;
-  gap: 7px;
+  /* gap: 7px;
   width: 100%;
-  padding: 0 5px;
+  padding: 0 5px; */
   
 }
 
 .col {
-  background-color: #eebefa;
+  /* background-color: #eebefa; */
 }
 
 .card {
-  background-color: #b2f2bb;
   display: flex;
   flex-direction: column;
   align-items: center;
