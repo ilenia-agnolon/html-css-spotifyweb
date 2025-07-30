@@ -352,19 +352,28 @@ color: #878788;
     FOOTER
  *************************************************/
  footer {
-    height: 50px;
-    background-color: #290a0a;
+    height: 70px;
+    background-color: #0c0f14;
     margin: 0 auto;
     display: flex;
     align-items: center;
  }
+
+/* .narrow-cont-footer {
+  background-color: red;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 6px;
+} */
 
 .cont-footer-elements {
   background-color: rgb(166, 166, 166);
   width:100%;
   display: flex;
   justify-content: space-between;
-  padding: 0 5px;
+  height: 50px;
+  padding: 10px 6px;
 }
 /* ___________________________ */
 /* parte sx */
@@ -376,14 +385,12 @@ color: #878788;
 
 /* ----> parte cover album e titolo canzone + artista */
 .cont-song-playing {
-background-color: #89ffb3;
 width:80%;
 display: flex;
 align-items: center;
 }
 
 .box-img-album {
-background-color: #ffa6e4;
 width:20%;
 }
 
@@ -392,13 +399,11 @@ width: 100%;
 }
 
 .box-title-and-artist {
-background-color: #a6dbff;
 width:80%;
 }
 
 /* ----> parte icone */
 .cont-save-song {
-height: 30px;
 background-color: #ffb36c;
 width:20%;
 }
