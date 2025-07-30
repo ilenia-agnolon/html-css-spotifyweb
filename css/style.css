@@ -7,13 +7,9 @@
     box-sizing: border-box;
 }
 :root{
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;;
-    font-size: 12px;
+  font-family: 'Montserrat', sans-serif;  
+  font-size: 12px;
 }
-/* FONT FAMILY
-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-font-family: system-ui, sans-serif;
- */
 
 /* body {
 width: 1440px;
@@ -76,13 +72,51 @@ margin: 0 auto;
 .cont-menu-lb ul {
   line-height: 2;
 }
+
+/* playlist */
+.box-create-playlist {
+  height:90px;
+  background-color: #81ffad;
+  margin-top: 20px;
+}
+
+ h4 {
+    margin-bottom: 10px
+  }
+
+.cont-create-playlist {
+  background-color: #f783ac;
+}
+
+ /* .icon-create-playlist {
+  display: flex;
+  align-items: center
+  } */
+
+  .icon-create-playlist i {
+  font-size: 34px;
+  color:#878788;
+  margin-right: 8px;
+  }
+
+  .icon-create-playlist a {
+  text-decoration: none;
+  color:#878788;
+  }
+
+
+
+
+
+
+
 /* **************** */
   .right-box{
     height: 600px;
     background-color: #0c0f14;
     flex-grow: 1;
     overflow-y: auto;
- }
+ } 
 /* ________________________________________________________ */
  
 /* call-to-action-bar */
