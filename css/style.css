@@ -338,17 +338,37 @@ color: #878788;
  footer {
     height: 50px;
     background-color: #181818;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
     margin: 0 auto;
-
+    display: flex;
+    align-items: center;
  }
 
 .cont-footer-elements {
-  height: 45 px;
+  height: 45px;
   background-color: rgb(166, 166, 166);
+  width:100%;
+  display: flex;
+  justify-content: space-between;
 }
+
+.left-cont {
+  height: 45 px;
+  background-color: violet;
+  width:20%;
+}
+
+.center-cont {
+  height: 45 px;
+  background-color: rgb(255, 207, 255);
+  width:20%;
+}
+
+.right-cont {
+  height: 45 px;
+  background-color: rgb(163, 218, 255);
+  width:20%;
+}
+
 
 
 
