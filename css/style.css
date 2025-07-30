@@ -125,6 +125,20 @@ margin: 0 auto;
 line-height: 2;
 }
 
+/* sezione finale colonna con "installa" e profilo utente */
+.cont-footer-col {
+  height: 90px;
+  background-color: green;
+  display: flex;
+  align-items: flex-end;
+}
+
+.boxttom-box {
+  height: 60px;
+  background-color: #878788;
+  width: 100%;
+}
+
 
 /* **************** */
   .right-box{
