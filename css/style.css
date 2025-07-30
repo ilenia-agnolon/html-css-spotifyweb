@@ -256,7 +256,7 @@ color: #878788;
  color: white;
 }
 
-.btn-cta a:hover {
+.btn-cta:hover a {
   color: white;
 }
 /* ________________________________________________________ */
