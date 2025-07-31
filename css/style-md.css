@@ -10,7 +10,6 @@
   /* layout MD */
 
   /* top nav */
-
 .top-nav {
     height: auto;
 }
@@ -25,5 +24,14 @@
 .top-nav ul li {
     min-width: 100px;
     text-align: center;
+}
+
+.cont-title-and-album {
+  margin-top: 33px;
+}
+
+/* parte con vari album */
+.col {
+    width: calc(25% - 10.5px);
 }
 }
