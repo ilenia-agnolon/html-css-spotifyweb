@@ -356,8 +356,6 @@ color: #878788;
  }
 
  .col-bb {
-  background-color: rgb(173, 130, 238);
-  border: 1px solid green;
   display: flex;
   width: calc(100% / 3);
  }
@@ -504,7 +502,7 @@ color: #878788;
   position: relative;
 }
 
-.progress-fill:hover {
+.main-bar-progress:hover .progress-fill {
   background-color: #1ed760;
 }
 
@@ -520,28 +518,45 @@ color: #878788;
   transform: translate(50%, -50%);
 }
 
-.progress-fill:hover .circle-progress {
+.main-bar-progress:hover .circle-progress {
   display: block;
 }
 
 /* dx */
 .right {
-  background-color: rgb(2, 28, 100);
   width: 230px;
   height: 30px;
   margin-right: 8px;
+  display: flex;
+  align-items: center;
+}
+
+  /* --> icone */
+.cont-player-controls-right {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.cont-player-controls-right ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+}
+
+.cont-player-controls-right li {
+  color: white;
+  cursor: pointer;
+}
+
+/* --> barra volume */
+.cont-volume-bar {
+  width: 60%;
+  border-radius: 20px;
 }
 /* ___________________________ */
-
-
-/* ----> parte icone */
-
-
-
-
-
-
-
+/* FINE DESKTOP */
 
 
  /* ______________________________________________________________ */
