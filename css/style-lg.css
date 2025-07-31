@@ -185,18 +185,22 @@ line-height: 2;
 
 .cont-install a {
   text-decoration: none;
-  color: #878788;
+  color: white;
+  opacity: 0.5;
 }
 
-.cont-install a:hover {
-  color: white;
-}
 
  #install-icon {
   width: 15px;
   margin-bottom: 5px;
   padding-top: 5px;
+  color: white;
  }
+
+.cont-install:hover #install-icon,
+.cont-install:hover a {
+  opacity: 1;
+}
 
 hr {
 color: #878788;
