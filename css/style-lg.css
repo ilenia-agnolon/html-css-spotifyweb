@@ -38,7 +38,8 @@ h3 {
 
 h4 {
     margin-bottom: 10px;
-    color: white;
+    color:white;
+    cursor: pointer;
   }
 
 h5 {
@@ -52,23 +53,6 @@ h6 {
 }
 /* ***************************** */
 
- /*****************
-    icone
- ******************/
- .menu-icon {
-  width: 20px;
-  vertical-align: middle;
-  margin-right: 5px;
-  fill: red;
- }
-
- #install-icon {
-  width: 15px;
-  margin-bottom: 5px;
-  padding-top: 5px;
- }
-  /*****************
- ******************/
 
 /*************************************************
     MAIN
@@ -84,8 +68,6 @@ h6 {
     height: calc(100vh - 90px);
  }
 
-
- 
 /********************************
     left column
  ********************************/
@@ -116,15 +98,30 @@ h6 {
 
  /* menu */
 
-
+ #active {
+  color: white;
+  opacity: 1;
+}
 .cont-menu-left-box a {
-  color:#878788;
+  color: white;
+  opacity: 0.5;
   text-decoration: none;
+}
+
+.cont-menu-left-box a:hover {
+  opacity: 1;
 }
 
 .cont-menu-left-box ul {
   line-height: 2;
 }
+
+  /**icone**/
+ .menu-icon {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+ }
 
 /* crea playlist */
 .box-create-playlist {
@@ -134,17 +131,26 @@ h6 {
 .box-btn-and-action {
   display: flex;
   align-items: center;
+  width: 114px;
+  cursor: pointer;
 }
 
   .plus-icon i {
   font-size: 34px;
-  color:#878788;
+  color:white;
   margin-right: 8px;
+  opacity: 0.5;
   }
 
   .text-create-playlist {
-    color: #878788;
+    color: white;
+    opacity: 0.5;
   }
+
+.box-btn-and-action:hover .plus-icon i,
+.box-btn-and-action:hover .text-create-playlist {
+  opacity: 1;
+}
 
 /* lista scrollabile con varie playlist */
 .box-playlists-to-scroll {
@@ -186,6 +192,12 @@ line-height: 2;
   color: white;
 }
 
+ #install-icon {
+  width: 15px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+ }
+
 hr {
 color: #878788;
 }
@@ -198,6 +210,8 @@ color: #878788;
 .cont-profile {
   margin: 5px 0;
 }
+
+
 
 
 /********************************
