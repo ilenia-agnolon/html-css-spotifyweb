@@ -97,6 +97,7 @@ h6 {
  .left-box{
   /* debug */
     width: 230px;
+    min-width: 230px;
     background-color: #000000;
     display: flex;
     justify-content: center;
@@ -230,12 +231,11 @@ color: #878788;
 
  /* ---------> button */
  .btn-cta {
-   height: 25px;
-   width: 140px;
+   height: 40px;
+   width: 220px;
    border: 1px solid #878788;
    padding: 10px 20px;
    border-radius: 20px;
-   font-size: 8px;
    font-weight: 700;
    display: flex;
    align-items: center;
@@ -250,9 +250,6 @@ color: #878788;
   text-decoration: none;
  }
 
- /* .btn-cta a:hover {
-  transform: scale(1.05);
-} */
 
  .btn-cta:hover {
  border: 1px solid white;
@@ -327,9 +324,14 @@ color: #878788;
   align-items: center;
 }
 
-.card img {
-  height: 120px;
+.col {
+  width: 15%;
 }
+
+.card img {
+  width: 100%;
+}
+
 
 /* -------> Creato per John Doe */
 
@@ -387,7 +389,7 @@ color: #878788;
 
 .right {
   background-color: rgb(2, 28, 100);
-  width: 30%;
+  width: 230px;
   height: 30px;
 }
 /* ___________________________ */
