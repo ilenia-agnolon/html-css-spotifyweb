@@ -5,6 +5,26 @@
   font-size: 12px; /* per desktop */
 }
 
-@media (max-width: 639px) {
+@media screen and (max-width: 640px) {
   /* layout S */
+
+    .col {
+        width: calc(100% / 2 - 14px);
+    }
+
+    .left {
+        width: auto;
+    }
+
+    .small-cover-cont {
+        width:auto;
+    }
+
+    .cont-save-song {
+        flex-direction: column;
+        gap: 8px;
+        width: auto;
+        margin-left: 28px;
+    }
+
 }
