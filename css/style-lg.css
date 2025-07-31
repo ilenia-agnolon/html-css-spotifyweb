@@ -22,11 +22,11 @@ h1 {
 
 h2 {
     color: white;
-    font-size: 12px;
+    font-size: 17px;
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 8px;
-    letter-spacing: 1px;
+    line-height: 1;
 }
 
 h3 {
@@ -113,7 +113,7 @@ h6 {
 }
 
 .cont-menu-left-box ul {
-  line-height: 2;
+  line-height: 2.7;
 }
 
   /**icone**/
@@ -125,7 +125,7 @@ h6 {
 
 /* crea playlist */
 .box-create-playlist {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .box-btn-and-action {
@@ -154,8 +154,8 @@ h6 {
 
 /* lista scrollabile con varie playlist */
 .box-playlists-to-scroll {
-  height: 100px;
-  margin-top: 10px;
+  max-height: 150px;
+  margin-top: 15px;
   overflow-y: auto;
 }
 
@@ -329,6 +329,7 @@ color: #878788;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .col {

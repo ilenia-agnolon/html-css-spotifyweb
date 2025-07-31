@@ -34,4 +34,8 @@
 .col {
     width: calc(25% - 10.5px);
 }
+
+h2 {
+    font-size: 1.2rem;
+}
 }
