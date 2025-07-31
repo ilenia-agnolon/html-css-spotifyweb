@@ -26,11 +26,11 @@
     text-align: center;
 }
 
+/* parte con vari album */
 .cont-title-and-album {
   margin-top: 33px;
 }
 
-/* parte con vari album */
 .col {
     width: calc(25% - 10.5px);
 }
