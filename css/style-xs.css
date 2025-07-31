@@ -7,4 +7,9 @@
 
 @media screen and (max-width: 552px) {
   /* layout XS */
+
+  .left-box {
+    width: 50px;
+    min-width: 50px;
+  }
 }
