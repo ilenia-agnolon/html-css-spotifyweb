@@ -427,7 +427,6 @@ color: #878788;
 
 /* centrale */
 .center {
-  background-color: rgb(255, 186, 255);
   flex-grow: 1;
   height: 50px;
 }
@@ -436,7 +435,6 @@ color: #878788;
 .cont-btns-song {
   width: 100%;
   height: 50%;
-  background-color: purple;
   display: flex;
   justify-content: center;
   align-items: center;   
@@ -473,7 +471,57 @@ color: #878788;
 .cont-progress-bar {
   width: 100%;
   height: 50%;
-  background-color: rgb(52, 97, 230);
+  display: flex;
+}
+
+.time-cont {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+  color: white;
+}
+
+.bar-cont {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.main-bar-progress {
+  background-color: #878788;
+  width: 100%;
+  height: 5px;
+  border-radius: 20px;
+}
+
+.progress-fill {
+  background-color: white;
+  height: 5px;
+  width: 16%;
+  border-radius: 20px;
+  position: relative;
+}
+
+.progress-fill:hover {
+  background-color: #1ed760;
+}
+
+.circle-progress {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  display: none;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.progress-fill:hover .circle-progress {
+  display: block;
 }
 
 /* dx */
