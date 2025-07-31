@@ -5,6 +5,22 @@
   font-size: 12px; /* per desktop */
 }
 
-@media (max-width: 878px) {
+
+
+
+@media screen and (max-width: 880px) {
   /* layout MD */
+
+  /* top nav */
+
+.top-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.top-nav ul li {
+    min-width: 100px;
+    text-align: center;
+}
 }
