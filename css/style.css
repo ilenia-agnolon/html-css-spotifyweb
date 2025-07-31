@@ -421,13 +421,60 @@ color: #878788;
   color:#878788;
 }
 
-/* centrale */
-.center {
-  background-color: cadetblue;
-  flex-grow: 1;
-  height: 40px;
+.small-icons i:hover {
+  color: white;
 }
 
+/* centrale */
+.center {
+  background-color: rgb(255, 186, 255);
+  flex-grow: 1;
+  height: 50px;
+}
+
+  /* --> pulsanti*/
+.cont-btns-song {
+  width: 100%;
+  height: 50%;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+}
+
+.cont-btns-song ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  list-style: none;
+}
+
+.cont-btns-song ul li {
+  cursor: pointer;
+}
+
+.box-single-btn{
+  color: white;
+}
+
+#play {
+  font-size: 24px;
+  transition: transform 0.2s ease-in-out;
+}
+
+#play:hover {
+  transform: scale(1.2);
+}
+
+
+  /* --> progress bar*/
+.cont-progress-bar {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(52, 97, 230);
+}
 
 /* dx */
 .right {
