@@ -1,5 +1,10 @@
 /* Mobile piccolo (max-width: 552px) */
 
+:root {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px; /* per desktop */
+}
+
 @media (max-width: 552px) {
   /* layout XS */
 }

@@ -1,5 +1,10 @@
 /* Tablet (max-width: 878px)*/
 
+:root {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px; /* per desktop */
+}
+
 @media (max-width: 878px) {
   /* layout MD */
 }
