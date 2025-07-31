@@ -90,11 +90,18 @@ h6 {
  /* logo */
  .box-logo {
    height:55px;
+   display: flex;
  }
 
  .box-logo img {
-
+  width: 128px;
+  cursor: pointer;
  }
+
+  /* --> logo piccolo */
+  #small-logo {
+    display:none;
+  }
 
  /* menu */
 
@@ -328,6 +335,7 @@ color: #878788;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
 
 .col {
