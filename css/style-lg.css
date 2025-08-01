@@ -79,6 +79,7 @@ h6 {
     padding: 0 20px;
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
  }
 
  /* logo */
@@ -123,6 +124,23 @@ h6 {
   vertical-align: middle;
   margin-right: 5px;
  }
+
+  /* -->linea piccola verde */
+  .cont-menu-left-box #active::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 25px;
+    background-color: #1ed760;
+    border-radius: 5px;
+  }
+
+  .cont-menu-left-box li {
+  position: relative;
+}
 
 /* crea playlist */
 .box-create-playlist {
@@ -178,6 +196,10 @@ line-height: 2;
   display: flex;
   align-items: flex-end;
   flex-grow: 1;
+  position: sticky;
+  bottom: 0;
+  background-color: #000000;
+  z-index: 10;
 }
 
 .bottom-box {
@@ -299,9 +321,22 @@ color: #878788;
   .top-nav a:hover {
   color: white;
 }
+.top-nav li.active-section a {
+  position: relative;
+  color: white;
+}
 
-.active-section {
-  border-bottom: 2px solid #1ed760;
+.top-nav li.active-section a::after {
+  content: "";
+  position: absolute;
+  transform: translateX(-50%);
+  width: 25px;
+  height: 2px;
+  top: 16px;
+  left: 50%;
+  background-color: #1ed760;
+  border-radius: 10px;
+  
 }
 /* ________________________________________________________ */
 
