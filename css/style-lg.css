@@ -79,7 +79,11 @@ h6 {
     padding: 0 20px;
     display: flex;
     flex-direction: column;
-    overflow-y: auto;
+    overflow-y: auto; 
+    /*** overflow-y: auto
+      --> serve per tenere "attaccato"
+      il pezzo che sta in fondo alla colonna
+      (sez installa app e profilo)***/
  }
 
  /* logo */
